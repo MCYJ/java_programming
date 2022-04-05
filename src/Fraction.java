@@ -55,6 +55,7 @@ public class Fraction {
 		this.numerator = numerator;
 		this.denominator = denominator;
 	}
+	// 최소공배수 계산 메소드
 	public static int gcd(int a, int b) {
 		if (b == 0) return a;
 		return gcd(b, a%b);

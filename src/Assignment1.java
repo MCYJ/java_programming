@@ -28,6 +28,8 @@ public class Assignment1 {
 					tot = x/y;
 				} else if(opr.equals("%")) {
 					tot = x%y;
+				} else if(opr.equals("=")){
+					break;
 				} else {
 					// 5칙 연산밖의 문자를 연산자로 사용할 경우, 입력양식을 지킬 수 있도록 예외발생
 					throw new NumberFormatException();
